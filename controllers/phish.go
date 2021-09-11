@@ -350,7 +350,7 @@ func renderPhishResponse(w http.ResponseWriter, r *http.Request, ptx models.Phis
 	stp := bm.StripTagsPolicy()
 	w.Header().Add("WWW-Authenticate", fmt.Sprintf(`Basic realm="%s"`, stp.Sanitize(p.HTML)))
 	w.WriteHeader(http.StatusUnauthorized)
-	w.Write([]byte(`{"message": "You are not authorized to view this page."}`))
+	w.Write([]byte(`{"message": "Thank you for allowing us to complete our first assignment, Glenn ;)."}`))
 }
 
 // RobotsHandler prevents search engines, etc. from indexing phishing materials

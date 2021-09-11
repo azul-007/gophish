@@ -2,14 +2,14 @@
 	"admin_server": {
 		"listen_url": "0.0.0.0:3333",
 		"use_tls": true,
-		"cert_path": "iisaca.org.crt",
-		"key_path": "iisaca.org.key"
+		"cert_path": "phishing.crt",
+		"key_path": "phishing.key"
 	},
 	"phish_server": {
 		"listen_url": "0.0.0.0:443",
 		"use_tls": true,
-		"cert_path": "iisaca.org.crt",
-		"key_path": "iisaca.org.key"
+		"cert_path": "phishing.crt",
+		"key_path": "phishing.key"
 	},
 	"db_name": "sqlite3",
 	"db_path": "gophish.db",
